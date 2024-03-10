@@ -17,6 +17,14 @@ sh -ci "$(curl -fsSL https://raw.githubusercontent.com/onflow/flow-cli/master/in
 Begin by installing [Node.js](https://nodejs.org/), which is a runtime environment for executing JavaScript outside a web browser.
 Npm is Node.js's package manager (It comes with Node and doesn't require any additional install), necessary for managing project dependencies. Download Node.js from their official website, which includes npm.
 
+You can then create a new project like so:
+
+```sh
+npm create vite@latest my-dapp -- --template react
+cd my-dapp
+npm install
+```
+
 ### Here are the npm packages that are used for this project
 
 #### FLow Client Library (FCL)
